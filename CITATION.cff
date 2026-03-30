@@ -1,0 +1,9 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Bachtiar"
+  given-names: "Arel"
+title: "Enhanced-RAG218A"
+version: 1.0.0
+date-released: 2026-03-30
+url: https://github.com/arelarez/Enchanced-RAG218A
