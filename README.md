@@ -180,3 +180,14 @@ to implementation, we'd run thousands of test questions through the Enhanced RAG
 - Case 2: Faithfullness score is high (0.90), but Context Precision is low (0.30)
   - Diagnosis: the LLM is compliant, but the search results document is full of irrelevant garbage.
    - The solution it's should be to add a Cross-Encoder Re-ranker like my implementation in this Enhanced RAG architecture
+
+If you find this work useful, please cite it:
+
+```bibtex
+@software{Enhance-RAG-model218A,
+  author = {Arel Bachtiar},
+  title = {Enhance-RAG218A},
+  year = {2026},
+  url = {[Ehhance-RAG218A](https://github.com/arelarez/Enchanced-RAG218A)}
+}
+```
