@@ -46,6 +46,8 @@ This threat is a brilliant point for a hacker. Python is a nightmare for memory 
 
 If a hacker managed to execute an exploit and RAM Dump on my FastAPI access, they could easily Extract the API key, other users' conversation history, to my secret prompts using tools like *Volatility* or simply reading hexadecimal patterns.
 
+> For now the architectural model of Enhanced RAG 218A will be implemented using a code structure concentrated by the Python language, and because the 'development latency' is highly concentrated by comparison FastAPI allows for the time **inefficiency of asynchronous endpoints** reloading data in minutes. but this project will be continue, so I might adapt another *language modular or hybrid architecture* for this model (implementing a merge or compilation between SecRAG, core-RAG and a custom API.)
+
 #### C. Cryptographic Vulnerabilities 
 
 If it is closely related to Security or the security of the Hardware Security Module (HSM) environment which is not based on encryption depending on depth, if the scenario is that my Chroma vector database in this architecture is stored on disk (```.parquet```) without any encryption at all, or only encrypted with a single state key (Single Key Encryption) hardcoded in ```.env```, then when the server is breached, all my client/user data will be exposed in seconds.
@@ -53,8 +55,6 @@ If it is closely related to Security or the security of the Hardware Security Mo
 ### How do I defend myself for this AI Architecture?
 
 Since I intend to design an AI engine and environment that is ready for mass production, my defense must be layered (Defend in Depth) with various methods and techniques as follows:
-
-> The Security Module Management or SecondRAG file that will protect the entry of documents/queries from users to the server will be separated ```SecRAGSH.py```(made into two) and the file (code-block) has been integrated into ```model218A.py``` for the purpose of flexibility in managing here (Github).
 
 #### Safe Vector (Anti-Poisoning): 
 
@@ -191,3 +191,5 @@ If you find this work useful, please cite it:
   url = {[Ehhance-RAG218A](https://github.com/arelarez/Enchanced-RAG218A)}
 }
 ```
+
+> This Enhanced RAG 218A model project will continue to be developed further.
