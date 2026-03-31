@@ -1,0 +1,52 @@
+# 1. CREDENTIALS (CRITICAL SECURITY)
+.env
+.env.local
+.env.*
+*.pem
+*.key
+
+# 2. PYTHON & FASTAPI ENVIRONMENT
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+venv/
+env/
+.venv/
+
+# 3. AI MODELS & WEIGHTS
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.gguf
+models/
+outputs/
+huggingface_cache/
+
+# 4. VECTOR DATABASE (CHROMADB)
+chroma_db/
+chroma_storage/
+*.parquet
+*.sqlite3
+
+# 5. SECURE LINE INTERFACE ORCHESTRATION (Data Quarantine)
+docs_staging/
+docs_infected/
+docs_processed/
+*.pdf
+*.txt
+*.docx
+*.csv
+logs/
+*.log
+
+# 6. OS & IDE SPESIFIC
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
